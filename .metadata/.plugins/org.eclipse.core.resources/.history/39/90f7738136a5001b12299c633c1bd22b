@@ -1,0 +1,15 @@
+package com.sap.test;
+
+public class Example<xxxx> extends T {
+private T ex1;
+	private Example<T> ex2;
+		public Example(T ex1, Example<T> ex2){
+			
+			this.ex1= ex1;
+			this.ex2 = ex2;
+			}
+}
+		public T getData() {
+			return ex1;
+		}
+}

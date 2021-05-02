@@ -1,0 +1,11 @@
+package com.sap.test;
+
+public class Demo {
+	public static void main(String[] args) {
+		Integer i=new Integer(257);
+		Short y=Short.toUnsignedInt(i);
+		Byte x=y.byteValue();
+		System.out.print(x);
+	}
+
+}
